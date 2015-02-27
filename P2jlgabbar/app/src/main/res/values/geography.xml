@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states">
+        <item>Mississippi</item>
+        <item>Tennessee</item>
+        <item>Alabama</item>
+        <item>Louisiana</item>
+        <item>Florida</item>
+        <item>New York</item>
+        <item>Michigan</item>
+        <item>Texas</item>
+        <item>Virginia</item>
+        <item>Kentucky</item>
+        <item>Georgia</item>
+        <item>North Carolina</item>
+        <item>Ohio</item>
+        <item>Vermont</item>
+        <item>Wyoming</item>
+        <item>California</item>
+    </string-array>
+
+    <string-array name="capitals">
+        <item>Jackson</item>
+        <item>Nashville</item>
+        <item>Montgomery</item>
+        <item>Baton Rouge</item>
+        <item>Tallahassee</item>
+        <item>Albany</item>
+        <item>Lansing</item>
+        <item>Austin</item>
+        <item>Richmond</item>
+        <item>Frankfort</item>
+        <item>Atlanta</item>
+        <item>Raleigh</item>
+        <item>Columbus</item>
+        <item>Montpelier</item>
+        <item>Cheyenne</item>
+        <item>Sacramento</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

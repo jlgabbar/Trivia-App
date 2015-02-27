@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#ff71afff">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mathProbView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="35dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14" />
+
+    <EditText
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/mathAnswerView"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Answer"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitMathButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="submitAnswer" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/scoreID"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Page"
+        android:id="@+id/returnButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goBack" />
+
+</LinearLayout>
